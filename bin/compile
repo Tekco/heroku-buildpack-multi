@@ -2,6 +2,9 @@
 
 set -e
 
+# debug
+set -x
+
 function indent() {
   c='s/^/       /'
   case $(uname) in
