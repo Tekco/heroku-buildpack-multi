@@ -3,7 +3,7 @@
 set -e
 
 # debug
-set -x
+# set -x
 
 function indent() {
   c='s/^/       /'
